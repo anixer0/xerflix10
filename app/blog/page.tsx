@@ -20,41 +20,27 @@ type BlogPost = {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "Exciting Updates Ahead!",
+    title: "XERFLIX IS FREE ADS!",
     content: (
       <>
         <p>
-          Hey EnjoyTown fans! We&apos;ve got some thrilling news to share with you. Get ready for some major upgrades coming your way:
-        </p>
-        <ul>
-          <li>- A fresh new UI design for a more immersive experience</li>
-          <li>- Improved performance for seamless streaming</li>
-          <li>- Expanded library with even more movies, series, and animes</li>
-        </ul>
-        <p>
-          Stay tuned for these exciting updates and more! We can&apos;t wait to enhance your streaming experience on EnjoyTown.
+          "Are you tired of endless ads interrupting your streaming experience? Say goodbye to them with xerflix - the ultimate ad-free streaming website. Enjoy your favorite shows and movies without any distractions. Try it now!" #xerflix #streaming #adfree
         </p>
       </>
     ),
-    author: "EnjoyTown Team",
+    author: "XerFliX",
     date: "2024-08-05",
   },
   {
-    title: "Hindi Dubbed Movies Added!",
+    title: "Thaks For Supporting XerFlix",
     content: (
       <>
         <p>
-          We&apos;re excited to announce that we&apos;ve added a new collection of Hindi dubbed movies to our website. Now you can enjoy your favorite movies in Hindi too!
-        </p>
-        <p>
-          Our Hindi dubbed collection includes a wide range of genres, from action-packed blockbusters to heartwarming dramas. Whether you prefer Bollywood classics or Hollywood hits, we&apos;ve got you covered.
-        </p>
-        <p>
-          Explore our Hindi dubbed movie section and immerse yourself in the world of cinema. Happy streaming!
+          Behind every successful streaming service lies a dedicated community of supporters. Thank you for being a part of ours. Your love and loyalty mean everything to us. 🙌🎬 #XerFlix #StreamingCommunity
         </p>
       </>
     ),
-    author: "Enjoy Team",
+    author: "XERFLIX",
     date: "2024-08-06",
   },
 ];
@@ -68,9 +54,9 @@ export default function BlogPage() {
       <div className="mx-auto max-w-4xl p-4">
         <section className="flex items-center justify-center py-16">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4">EnjoyTown Blog</h1>
+            <h1 className="text-4xl font-bold mb-4">XerFlix Blog</h1>
             <p className="text-lg text-muted-foreground">
-              Stay updated with the latest news and announcements from EnjoyTown.
+              Stay updated with the latest news and announcements from XerFlix.
             </p>
           </div>
         </section>
@@ -94,10 +80,10 @@ export default function BlogPage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center space-y-4">
             <p className="text-sm">
-              © 2024 EnjoyTown. All rights reserved.
+              © 2024 XerFlix. All rights reserved.
             </p>
             <p className="text-sm">
-              Made with ❤️ by the EnjoyTown Team.
+              Made with ❤️ By: Xer.
             </p>
           </div>
         </div>
