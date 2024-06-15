@@ -20,7 +20,7 @@ type BlogPost = {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "XERFLIX IS FREE ADS!",
+    title: "XERFLIX IS ADS FREE!",
     content: (
       <>
         <p>
