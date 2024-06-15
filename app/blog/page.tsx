@@ -32,7 +32,7 @@ const blogPosts: BlogPost[] = [
     date: "2024-08-05",
   },
   {
-    title: "Thaks For Supporting XerFlix",
+    title: "Thanks For Supporting XerFlix",
     content: (
       <>
         <p>
