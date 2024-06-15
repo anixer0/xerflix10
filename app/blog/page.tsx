@@ -24,7 +24,7 @@ const blogPosts: BlogPost[] = [
     content: (
       <>
         <p>
-          "Are you tired of endless ads interrupting your streaming experience? Say goodbye to them with xerflix - the ultimate ad-free streaming website. Enjoy your favorite shows and movies without any distractions. Try it now!" #xerflix #streaming #adfree
+          Are you tired of endless ads interrupting your streaming experience? Say goodbye to them with xerflix - the ultimate ad-free streaming website. Enjoy your favorite shows and movies without any distractions. Try it now! xerflix streaming adfree
         </p>
       </>
     ),
@@ -36,11 +36,11 @@ const blogPosts: BlogPost[] = [
     content: (
       <>
         <p>
-          Behind every successful streaming service lies a dedicated community of supporters. Thank you for being a part of ours. Your love and loyalty mean everything to us. 🙌🎬 #XerFlix #StreamingCommunity
+          Behind every successful streaming service lies a dedicated community of supporters. Thank you for being a part of ours. Your love and loyalty mean everything to us. 🙌🎬 XerFlix StreamingCommunity
         </p>
       </>
     ),
-    author: "Enjoytown",
+    author: "Xerflix",
     date: "2024-08-06",
   },
 ];
