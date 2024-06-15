@@ -57,13 +57,13 @@ type Post = {
 
 const posts: Post[] = [
   {
-    title: "📌 Exciting Updates Ahead!",
+    title: "📌 Thanks For Using XerFlix!",
     content: (
       <>
         <div>
-          Hey EnjoyTown fans! We&apos;ve got some thrilling news to share with you. Get ready for some major upgrades coming your way:
+          We wanted to take a moment to express our gratitude for your loyalty to XerFlix. Thank you!
           <br />
-          - A fresh new UI design for a more immersive experience
+          
         </div>
       </>
     ),
@@ -71,11 +71,12 @@ const posts: Post[] = [
     link: "/blog/"
   },
   {
-    title: "📌 Hindi Dubbed Movie Added!",
+    title: "📌 Please Send Any Amount On Gcash!",
     content: (
       <>
         <div>
-          We&apos;re excited to announce that we&apos;ve added a new collection of Hindi dubbed movies to our website. Now you can enjoy your favorite movies in Hindi too!
+         Your donation through GCash is greatly appreciated. Thank you for helping us continue to provide valuable content on our site.
+         Gcash Number: 09260915228
         </div>
       </>
     ),
@@ -94,12 +95,12 @@ export default function Home() {
         <section className="flex h-[75vh] items-center md:h-[50vh]">
           <div className="mx-auto flex w-4/5 flex-col items-center justify-center space-y-4 text-center">
             <h1 className="text-6xl font-bold">
-              EnjoyTown
+              XERFLIX
             </h1>
             <p className="text-sm leading-6 text-muted-foreground">
-              EnjoyTown is a streaming platform for lazy people who like to
+               XerFlix Is A Streaming Platform For Lazy People Who Like To
               <br />
-              watch millions of movies, series and animes for free. Go down to watch
+              Watch Millions Of Movies, K-drama, Tv-series Read Manga And Animes For Free. Go Down To Watch
             </p>
             <div className="flex gap-2">
               <Link href={`/a`}>
@@ -201,10 +202,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center space-y-4">
             <p className="text-sm">
-              © 2024 EnjoyTown. All rights reserved.
+              © 2024 XerFlix. All rights reserved.
             </p>
             <p className="text-sm">
-              Made with ❤️ by the EnjoyTown Team.
+              Made With ❤️ By: Xer.
             </p>
           </div>
         </div>
