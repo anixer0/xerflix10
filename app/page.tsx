@@ -103,17 +103,17 @@ export default function Home() {
               Watch Millions Of Movies, K-drama, Tv-series Read Manga And Animes For Free. Go Down To Watch
             </p>
             <div className="flex gap-2">
-              <Link href={https://www.facebook.com}>
+              <Link href={"https://www.facebook.com"}>
                 <Button variant="default" disabled>
                   Facebook
                 </Button>
               </Link>
-              <Link href={https://www.youtube.com}>
+              <Link href={"https://www.youtube.com"}>
                 <Button variant="outline" disabled>
                   YouTube
                 </Button>
               </Link>
-              <Link href={https://www.github.com}>
+              <Link href={"https://www.github.com"}>
                 <Button variant="outline">
                   GitHub
                 </Button>
