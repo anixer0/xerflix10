@@ -98,7 +98,7 @@ export default function Home() {
               XERFLIX
             </h1>
             <p className="text-sm leading-6 text-muted-foreground">
-               XerFlix Is A Ads Free Streaming Platform For Lazy People Who Like To
+               XerFlix Is Ads Free Streaming Platform For Lazy People Who Like To
               <br />
               Watch Millions Of Movies, K-drama, Tv-series Read Manga And Animes For Free. Go Down To Watch
             </p>
