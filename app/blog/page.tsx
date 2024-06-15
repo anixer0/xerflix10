@@ -40,7 +40,7 @@ const blogPosts: BlogPost[] = [
         </p>
       </>
     ),
-    author: "XERFLIX",
+    author: "Enjoytown",
     date: "2024-08-06",
   },
 ];
