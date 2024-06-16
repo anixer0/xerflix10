@@ -71,11 +71,11 @@ const posts: Post[] = [
     link: "/blog/"
   },
   {
-    title: "📌 Please Send Any Amount On Paypal Or Gcash!",
+    title: "📌 To Support XerFlix Please Send Any Amount!",
     content: (
       <>
         <div>
-         Your donation through GCash is greatly appreciated. Thank you for helping us continue to provide valuable content on our site.
+         Behind every successful streaming platform lies the support of its users. Xerflix relies on your contributions to bring you quality entertainment. Help us continue to provide amazing content by sending any amount of money today. Every penny counts! #XerflixSupport #StreamingCommunity
          <br />
          Paypal Number: +639260915228
          <br />
