@@ -80,6 +80,7 @@ export default function VideoPlayer({ id }:any) {
             scrolling="no"
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
+         </TabsContent>
       </Tabs>
     </div>
   );
