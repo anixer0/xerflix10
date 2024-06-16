@@ -71,12 +71,15 @@ const posts: Post[] = [
     link: "/blog/"
   },
   {
-    title: "📌 Please Send Any Amount On Gcash!",
+    title: "📌 Please Send Any Amount On Paypal Or Gcash!",
     content: (
       <>
         <div>
          Your donation through GCash is greatly appreciated. Thank you for helping us continue to provide valuable content on our site.
-         Gcash Number: 09260915228
+         <br />
+         Paypal Number: +639260915228
+         <br />
+         Gcash Number: +639260915228
         </div>
       </>
     ),
