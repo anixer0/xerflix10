@@ -35,7 +35,7 @@ export default function VideoPlayer({ id }: any) {
           </div>
         </div>
       </div>
-      <Tabs defaultValue="Xer.Server">
+      <Tabs defaultValue="VidSrc.Vip">
         <div className="flex flex-col items-center">
           <TabsList>
             <TabsTrigger value="vidsrc">VidSrc</TabsTrigger>
