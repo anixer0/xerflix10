@@ -35,11 +35,11 @@ export default function VideoPlayer({ id }: any) {
           </div>
         </div>
       </div>
-      <Tabs defaultValue="VidSrc.Vip">
+      <Tabs defaultValue="vidsrcvip">
         <div className="flex flex-col items-center">
           <TabsList>
             <TabsTrigger value="vidsrc">VidSrc</TabsTrigger>
-            <TabsTrigger value="vidsrcvip">VidSrc.Vip</TabsTrigger>
+            <TabsTrigger value="vidsrcvip">vidsrcvip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vid.Pro</TabsTrigger>
             <TabsTrigger value="XerServer">Xer.Server</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
