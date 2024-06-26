@@ -10,7 +10,7 @@ export default function VideoPlayer({ id }:any) {
             <TabsTrigger value="vidsrc">VidSrc</TabsTrigger>
             <TabsTrigger value="vidsrcvip">vidsrcvip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vidsrc.pro</TabsTrigger>
-            <TabsTrigger value="XerServer">Xer.Server</TabsTrigger>
+            <TabsTrigger value="XerServer">XerServer</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
             <TabsTrigger value="superembed">SuperEmbed</TabsTrigger>
           </TabsList>
@@ -70,7 +70,7 @@ export default function VideoPlayer({ id }:any) {
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
         </TabsContent>
-        <TabsContent value="Xer.Server">
+        <TabsContent value="XerServer">
           <iframe
             src={`https://player.autoembed.cc/embed/movie/${id}?server=2`}
             referrerPolicy="origin"
