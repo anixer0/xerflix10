@@ -8,6 +8,7 @@ export default function VideoPlayer({ id }:any) {
         <div className="flex flex-col items-center">
           <TabsList>
             <TabsTrigger value="vidsrc">VidSrc</TabsTrigger>
+            <TabsTrigger value="XerS1">XerS1</TabsTrigger>
             <TabsTrigger value="vidsrcvip">vidSrcvip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vidsrc.pro</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
@@ -35,6 +36,17 @@ export default function VideoPlayer({ id }:any) {
             scrolling="no"
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
+          <TabsContent value="XerS1">
+          <iframe
+            src={`https://player.autoembed.cc/embed/movie/${id}`}
+            referrerPolicy="origin"
+            allowFullScreen
+            width="100%"
+            height="450"
+            scrolling="no"
+            className="max-w-3xl mx-auto px-4 pt-10"
+          ></iframe>
+        </TabsContent>
         </TabsContent>
         <TabsContent value="vidsrcpro">
           <iframe
