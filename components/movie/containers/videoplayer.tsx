@@ -38,7 +38,7 @@ export default function VideoPlayer({ id }:any) {
           ></iframe>
           <TabsContent value="XerS1">
           <iframe
-            src={`https://player.autoembed.cc/embed/movie/${id}`}
+            src={`https://player.autoembed.cc/embed/movie/${id}&tmdb=1`}
             referrerPolicy="origin"
             allowFullScreen
             width="100%"
