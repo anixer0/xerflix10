@@ -72,7 +72,7 @@ export default function VideoPlayer({ id }:any) {
         </TabsContent>
         <TabsContent value="Xer.Server">
           <iframe
-            src={`https://autoembed.cc/embed/player.php?id=${e}`}
+            src={`https://player.autoembed.cc/embed/movie/${id}?server=2`}
             referrerPolicy="origin"
             allowFullScreen
             width="100%"
