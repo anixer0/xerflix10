@@ -1,4 +1,4 @@
-"use client";
+j"use client";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function VideoPlayer({ id }:any) {
@@ -72,7 +72,7 @@ export default function VideoPlayer({ id }:any) {
         </TabsContent>
         <TabsContent value="Xer.Server">
           <iframe
-            src={`https://player.autoembed.cc/embed/movie/${id}?server=3`}
+            src={`https://autoembed.cc/embed/player.php?id=${e}?server=3`}
             referrerPolicy="origin"
             allowFullScreen
             width="100%"
