@@ -4,11 +4,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default function VideoPlayer({ id }:any) {
   return (
     <div className="pb-8">
-      <Tabs defaultValue="Vidsrc.Vip">
+      <Tabs defaultValue="vidsrcvip">
         <div className="flex flex-col items-center">
           <TabsList>
             <TabsTrigger value="vidsrc">VidSrc</TabsTrigger>
-            <TabsTrigger value="vidsrcvip">VidSrc.Vip</TabsTrigger>
+            <TabsTrigger value="vidsrcvip">vidSrcvip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vidsrc.pro</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
             <TabsTrigger value="superembed">SuperEmbed</TabsTrigger>
