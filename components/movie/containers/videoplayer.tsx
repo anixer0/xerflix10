@@ -70,9 +70,9 @@ export default function VideoPlayer({ id }:any) {
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
         </TabsContent>
-        <TabsContent value="XerServer">
+        <TabsContent value="vidsrc">
           <iframe
-            src={`https://player.autoembed.cc/embed/movie/${id}?server=2`}
+            src={`https://vidsrc.in/embed/movie/${id}`}
             referrerPolicy="origin"
             allowFullScreen
             width="100%"
