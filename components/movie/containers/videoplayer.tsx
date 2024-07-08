@@ -4,17 +4,17 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default function VideoPlayer({ id }:any) {
   return (
     <div className="pb-8">
-      <Tabs defaultValue="123embed">
+      <Tabs defaultValue="Xerflix1">
         <div className="flex flex-col items-center">
           <TabsList>
-            <TabsTrigger value="123embed">123embed</TabsTrigger>
+            <TabsTrigger value="Xerflix1">Xerflix1</TabsTrigger>
             <TabsTrigger value="vidsrcvip">VidSrc.Vip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vidsrc.pro</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
             <TabsTrigger value="superembed">SuperEmbed</TabsTrigger>
           </TabsList>
         </div>
-        <TabsContent value="123embed">
+        <TabsContent value="Xerflix1">
           <iframe
             src={`https://play2.123embed.net/movie/${id}`}
             referrerPolicy="origin"
