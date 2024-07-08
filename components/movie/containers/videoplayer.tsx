@@ -37,6 +37,7 @@ export default function VideoPlayer({ id }:any) {
             scrolling="no"
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
+          </TabsContent>
           <TabsContent value="123embed">
           <iframe
             src={`https://play2.123embed.net/movie/${id}`}
@@ -47,6 +48,7 @@ export default function VideoPlayer({ id }:any) {
             scrolling="no"
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
+          </TabsContent>
           <TabsContent value="XerS1">
           <iframe
             src={`https://player.autoembed.cc/embed/movie/${e}?server=2`}
@@ -57,7 +59,6 @@ export default function VideoPlayer({ id }:any) {
             scrolling="no"
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
-        </TabsContent>
         </TabsContent>
         <TabsContent value="vidsrcpro">
           <iframe
