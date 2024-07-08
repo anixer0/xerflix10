@@ -35,17 +35,17 @@ export default function VideoPlayer({ id }: any) {
           </div>
         </div>
       </div>
-      <Tabs defaultValue="123embed">
+      <Tabs defaultValue="Xerflix1">
         <div className="flex flex-col items-center">
           <TabsList>
-            <TabsTrigger value="123embed">VidSrc</TabsTrigger>
+            <TabsTrigger value="Xerflix1">Xerflix1</TabsTrigger>
             <TabsTrigger value="vidsrcvip">VidSrc.Vip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vid.Pro</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
             <TabsTrigger value="superembed">SuberEmbed</TabsTrigger>
           </TabsList>
         </div>
-        <TabsContent value="123embed">
+        <TabsContent value="Xerflix1">
           <iframe
             src={`https://play2.123embed.net/tv/${id}/${season}/${episode}`}
             referrerPolicy="origin"
