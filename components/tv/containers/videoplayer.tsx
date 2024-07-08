@@ -35,20 +35,19 @@ export default function VideoPlayer({ id }: any) {
           </div>
         </div>
       </div>
-      <Tabs defaultValue="vidsrcvip">
+      <Tabs defaultValue="123embed">
         <div className="flex flex-col items-center">
           <TabsList>
-            <TabsTrigger value="vidsrc">VidSrc</TabsTrigger>
-            <TabsTrigger value="vidsrcvip">vidsrcvip</TabsTrigger>
+            <TabsTrigger value="123embed">VidSrc</TabsTrigger>
+            <TabsTrigger value="vidsrcvip">VidSrc.Vip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vid.Pro</TabsTrigger>
-            <TabsTrigger value="XerServer">Xer.Server</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
             <TabsTrigger value="superembed">SuberEmbed</TabsTrigger>
           </TabsList>
         </div>
-        <TabsContent value="vidsrc">
+        <TabsContent value="123embed">
           <iframe
-            src={`https://vidsrc.icu/embed/tv/${id}/${season}/${episode}`}
+            src={`https://play2.123embed.net/tv/${id}/${season}/${episode}`}
             referrerPolicy="origin"
             allowFullScreen
             width="100%"
@@ -60,17 +59,6 @@ export default function VideoPlayer({ id }: any) {
         <TabsContent value="vidsrcvip">
           <iframe
             src={`https://vidsrc.vip/embed/tv/${id}/${season}/${episode}`}
-            referrerPolicy="origin"
-            allowFullScreen
-            width="100%"
-            height="450"
-            scrolling="no"
-            className="max-w-3xl mx-auto px-4 pt-10"
-          ></iframe>
-        </TabsContent>
-        <TabsContent value="Xer.Server">
-          <iframe
-            src={`https://player.autoembed.cc/embed/tv/${id}/${season}/${episode}?server=3`}
             referrerPolicy="origin"
             allowFullScreen
             width="100%"
