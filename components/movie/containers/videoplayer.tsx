@@ -12,7 +12,7 @@ export default function VideoPlayer({ id }:any) {
             <TabsTrigger value="vidsrcpro">Vidsrc.pro</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
             <TabsTrigger value="superembed">SuperEmbed</TabsTrigger>
-            <TabsTrigger value="vidsrc">vidsrc</TabsTrigger>
+            <TabsTrigger value="vidlink">vidlink</TabsTrigger>
           </TabsList>
         </div>
         <TabsContent value="Xerflix1">
@@ -59,7 +59,7 @@ export default function VideoPlayer({ id }:any) {
             className="max-w-3xl mx-auto px-4 pt-10"
           ></iframe>
         </TabsContent>
-        <TabsContent value="vidsrcin">
+        <TabsContent value="vidlink">
           <iframe
             src={`https://vidlink.pro/movie/${id}`}
             referrerPolicy="origin"
