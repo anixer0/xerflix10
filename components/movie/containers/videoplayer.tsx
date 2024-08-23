@@ -4,7 +4,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default function VideoPlayer({ id }:any) {
   return (
     <div className="pb-8">
-      <Tabs defaultValue="Xerflix1">
+      <Tabs defaultValue="vidlink">
         <div className="flex flex-col items-center">
           <TabsList>
             <TabsTrigger value="Xerflix1">Xerflix1</TabsTrigger>
