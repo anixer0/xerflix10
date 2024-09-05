@@ -8,7 +8,7 @@ export default function VideoPlayer({ id }:any) {
         <div className="flex flex-col items-center">
           <TabsList>
             <TabsTrigger value="Xer1">Xer1</TabsTrigger>
-            <TabsTrigger value="Xer1">Xer2</TabsTrigger>
+            <TabsTrigger value="Xer2">Xer2</TabsTrigger>
             <TabsTrigger value="vidsrcvip">VidSrc.Vip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vidsrc.pro</TabsTrigger>
             <TabsTrigger value="vidsrcin">Vid.In</TabsTrigger>
