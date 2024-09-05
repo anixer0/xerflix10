@@ -7,7 +7,6 @@ export default function VideoPlayer({ id }:any) {
       <Tabs defaultValue="vidlink">
         <div className="flex flex-col items-center">
           <TabsList>
-            <TabsTrigger value="xer1">Xer1</TabsTrigger>
             <TabsTrigger value="xer2">Xer2</TabsTrigger>
             <TabsTrigger value="vidsrcvip">VidSrc.Vip</TabsTrigger>
             <TabsTrigger value="vidsrcpro">Vidsrc.pro</TabsTrigger>
@@ -15,21 +14,11 @@ export default function VideoPlayer({ id }:any) {
             <TabsTrigger value="superembed">SuperEmbed</TabsTrigger>
             <TabsTrigger value="vidlink">vidlink</TabsTrigger>
           </TabsList>
-        </div>
-        <TabsContent value="xer1">
+          </div>
+          <iframe
+            <TabsContent value="xer2">
           <iframe
             src={`https://play2.123embed.net/movie/${id}`}
-            referrerPolicy="origin"
-            allowFullScreen
-            width="100%"
-            height="450"
-            scrolling="no"
-            className="max-w-3xl mx-auto px-4 pt-10"
-          ></iframe>
-        </TabsContent>
-        <TabsContent value="xer2">
-          <iframe
-            src={`https://play.123embed.net/mv/${id}`}
             referrerPolicy="origin"
             allowFullScreen
             width="100%"
